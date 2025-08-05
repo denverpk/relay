@@ -3,7 +3,7 @@ export default async function handler(req, res) {
 
   try {
     const { receiver, amount } = req.body;
-    const GELATO_API_KEY = 'YOUR_GELATO_RELAY_API_KEY'; // Replace with your API Key
+    const GELATO_API_KEY = 'a2rSDWmO93Uw5hKuENl4cFb9HmmFOADHvZzYIQT43D4_'; // Replace with your API Key
     const GELATO_URL = 'https://relay.gelato.digital/tasks'; // Gelato Relay Task API Endpoint
 
     const task = {
